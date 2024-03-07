@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Order Form</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Contact Information</legend>
+            <label for="first_name">First Name:</label><br>
+            <input type="text" id="first_name" name="first_name" required><br>
+
+            <label for="last_name">Last Name:</label><br>
+            <input type="text" id="last_name" name="last_name" required><br>
+
+            <label for="phone_number">Phone Number:</label><br>
+            <input type="tel" id="phone_number" name="phone_number" required><br>
+        </fieldset>
+        <img src="Pizza_size_guide.jpeg" width="800" height="280"/>
+        <fieldset>
+            <legend>Pizza size</legend>
+            <input type="radio" id="takeaway" name="delivery_option" value="takeaway" checked>
+            <label for="takeaway">Small</label><br>
+            <input type="radio" id="takeaway" name="delivery_option" value="takeaway" checked>
+            <label for="takeaway">Medium</label><br>
+            <input type="radio" id="takeaway" name="delivery_option" value="takeaway" checked>
+            <label for="takeaway">Large</label><br>
+            <input type="radio" id="takeaway" name="delivery_option" value="takeaway" checked>
+            <label for="takeaway">X-Large</label><br>
+        </fieldset>
+        <fieldset>
+            <legend>Delivery Options</legend>
+            <input type="radio" id="takeaway" name="delivery_option" value="takeaway" checked>
+            <label for="takeaway">Take away</label><br>
+
+            <input type="radio" id="delivery" name="delivery_option" value="delivery">
+            <label for="delivery">Delivery</label><br>
+
+            <label for="delivery_address">Delivery Address:</label><br>
+            <input type="text" id="delivery_address" name="delivery_address"><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Pizza Toppings</legend>
+            <input type="checkbox" id="topping1" name="toppings[]" value="extra_cheese">
+            <label for="topping1"> Extra Cheese</label><br>
+            <input type="checkbox" id="topping2" name="toppings[]" value="tomato">
+            <label for="topping2">Tomato</label><br>
+            <input type="checkbox" id="topping3" name="toppings[]" value="mushroom">
+            <label for="topping3">Mushroom</label><br>
+            <input type="checkbox" id="topping4" name="toppings[]" value="onion">
+            <label for="topping4">Onion</label><br>
+            <input type="checkbox" id="topping5" name="toppings[]" value="green_olive">
+            <label for="topping5">Green Olive</label><br>
+            <input type="checkbox" id="topping6" name="toppings[]" value="black_olive">
+            <label for="topping6">Black Olive</label><br>
+            <input type="checkbox" id="topping7" name="toppings[]" value="Tuna">
+            <label for="topping7">Tuna</label><br>
+            <input type="checkbox" id="topping8" name="toppings[]" value="egg">
+            <label for="topping8">Egg</label><br>
+            <input type="checkbox" id="topping9" name="toppings[]" value="anchovy">
+            <label for="topping9">Anchovy</label><br>
+            <input type="checkbox" id="topping10" name="toppings[]" value="hot_pepper">
+            <label for="topping10">Hot Pepper</label><br>
+        </fieldset>
+
+
+    </form>
+        <a href="pay.html">
+            <button>pay!</button>
+        </a>
+
+
+</body>
+</html>

@@ -1,1 +1,1 @@
-# Nig Nig Nig Nig Nig
+ctrl + alt + nig
